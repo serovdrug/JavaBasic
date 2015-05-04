@@ -36,5 +36,4 @@ public class Launcher {
 		System.out.println("Client2 saldo = " + client2.getSaldo() + "$");
 
 	}
-
 }
