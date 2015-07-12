@@ -1,0 +1,24 @@
+<html>
+<head>
+    <script src="calc.js"></script>
+</head>
+<body>
+    <p>A <input id="a" type="text" name="a"></p>
+    <p>B <input id="b" type="text" name="b"></p>
+    <p>
+		<!--
+        <input id="add" type="button" name="add" value="+" onclick="addNumbers(a,b);">
+        <input id="minus" type="button" name="minus" value="-" onclick="minNumbers(a,b);">
+        <input id="divide" type="button" name="divide" value="/" onclick="divNumbers(a,b)">
+        <input id="multiply" type="button" name="multiply" value="*" onclick="multNumbers(a,b)">
+		-->
+		<input id="add" type="button" name="add" value="+" onmouseover="addNumbers(a,b);">
+        <input id="minus" type="button" name="minus" value="-" onmouseover="minNumbers(a,b);">
+        <input id="divide" type="button" name="divide" value="/" onmouseover="divNumbers(a,b)">
+        <input id="multiply" type="button" name="multiply" value="*" onmouseover="multNumbers(a,b)">
+    </p>
+    <p>Rezult <input id="rezult" type="text" name="rezult"></input></p>
+    <!-- <p><input type="button" name="clear" value="Clear" onclick="eraseText();"></p> -->
+	<p><input type="button" name="clear" value="Clear" onmouseover="eraseText();"></p>
+<body>
+</html>
